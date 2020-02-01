@@ -14,6 +14,7 @@ namespace LinearSearch
             while (min <= max)
             {
                 int mid = (min + max) / 2;
+                //instructions are in python, TODO determine floor divider in C#
                 if (key == arr[mid])
                 {
                     max = mid - 1;
